@@ -1,0 +1,177 @@
+footer {
+	background: #000;
+	color: #fff;
+	padding: 50px 0 0px;
+	height: auto !important;
+}
+
+.footer-top {
+	.row {
+		padding: 0px 10px;
+	}
+
+	border-bottom: 1px solid #383941;
+
+	a {
+		color: white;
+	}
+
+	.footer__left {
+		.logo_footer {
+			img {
+				height: 80px;
+				width: 232px;
+			}
+
+			position: relative;
+			margin-bottom: 19px;
+			padding-bottom: 14px;
+
+			&:after {
+				content: "";
+				width: 350px;
+				height: 1px;
+				position: absolute;
+				bottom: 0;
+				display: inline-block;
+				left: 0;
+				background: #FFE400;
+			}
+
+		}
+
+		.footer_contact {
+			list-style: none;
+
+			li {
+				margin-bottom: 22px;
+				font-size: 18px;
+			
+
+				i {
+					color: #FFE400;
+				}
+
+				a {
+					font-size: 18px;
+				}
+
+			}
+
+			i {
+				margin-right: 10px;
+			}
+
+		}
+
+	}
+
+	.footer__right {
+		h3 {
+			line-height: 2;
+			padding-bottom: 0px;
+			font-weight: 600;
+		}
+
+		h3:after {
+			content: "";
+			width: 200px;
+			height: 1px;
+			position: absolute;
+			bottom: 0;
+			display: inline-block;
+			left: 0;
+			background: #FFE400;
+		}
+
+		h3 {
+			display: block;
+			position: relative;
+			padding-bottom: 10px;
+			margin-bottom: 19px;
+			margin-top: 44px;
+			text-transform: none;
+			font-size: 20px;
+			color: white;
+		}
+
+		@media (min-width:992px) {
+		}
+
+		@media (max-width:992px) {
+			max-width: 100%;
+			flex-basis: 100%;
+		}
+
+		.col_menu_rt {
+			@media (max-width:992px) {
+				margin-bottom: 30px;
+			}
+
+			@media (max-width:550px) {
+				width: 100%;
+			}
+
+			padding: 0px 15px;
+
+			@media (max-width:1200px) {
+				padding: 0px;
+			}
+
+			>ul {
+				>li {
+					margin-bottom: 22px;
+
+					>a {
+						color: white;
+						font-size: 18px;
+					}
+
+				}
+
+			}
+
+		}
+
+		.col_menu_rt:last-child {
+			margin-right: 0px;
+		}
+
+	}
+
+	.footer_social {
+		margin-top: 20px;
+		list-style: none;
+		justify-content: flex-end;
+		display: flex;
+		    padding: 0px 5%;
+		align-items: center;
+
+		a {
+			padding: 0px 7px !important;
+		}
+
+		li:nth-last-child(2), li:nth-last-child(1) {
+			margin-left: 10px;
+		}
+
+	}
+
+}
+
+.footer-bottom {
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 20px 0 20px;
+
+	.row {
+		padding: 0px 15px;
+	}
+
+	.copyright-left {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+
+}
