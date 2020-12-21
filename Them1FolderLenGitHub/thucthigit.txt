@@ -1,0 +1,335 @@
+nguyen@nguyen-FX503VD:~/Projects/BEM$ cd ../
+nguyen@nguyen-FX503VD:~/Projects$ cd BEM12345
+nguyen@nguyen-FX503VD:~/Projects/BEM12345$ git clone git@github.com:annguyendang1722/BEM.git
+Cloning into 'BEM'...
+warning: You appear to have cloned an empty repository.
+nguyen@nguyen-FX503VD:~/Projects/BEM12345$ git init
+Initialized empty Git repository in /home/nguyen/Projects/BEM12345/.git/
+nguyen@nguyen-FX503VD:~/Projects/BEM12345$ ls
+BEM  css  fonts  images  index.html  js  prepros.config  scss
+nguyen@nguyen-FX503VD:~/Projects/BEM12345$ ls
+BEM  css  fonts  images  index.html  js  prepros.config  scss
+nguyen@nguyen-FX503VD:~/Projects/BEM12345$ ls
+BEM  css  fonts  images  index.html  js  prepros.config  scss
+nguyen@nguyen-FX503VD:~/Projects/BEM12345$ cd ..
+nguyen@nguyen-FX503VD:~/Projects$ ls
+BEM  BEM12345  docksal
+nguyen@nguyen-FX503VD:~/Projects$ cd ..
+nguyen@nguyen-FX503VD:~$ ls
+Desktop    Downloads  Pictures  Public                snap       Videos
+Documents  Music      Projects  skypeforlinux-64.deb  Templates
+nguyen@nguyen-FX503VD:~$ mkdir demo
+nguyen@nguyen-FX503VD:~$ cd demo/
+nguyen@nguyen-FX503VD:~/demo$ ls
+nguyen@nguyen-FX503VD:~/demo$ git clone git@github.com:annguyendang1722/BEM.git
+Cloning into 'BEM'...
+warning: You appear to have cloned an empty repository.
+nguyen@nguyen-FX503VD:~/demo$ ls
+BEM
+nguyen@nguyen-FX503VD:~/demo$ cd BEM/
+nguyen@nguyen-FX503VD:~/demo/BEM$ ls
+nguyen@nguyen-FX503VD:~/demo/BEM$ ls
+nguyen@nguyen-FX503VD:~/demo/BEM$ ls -l
+total 0
+nguyen@nguyen-FX503VD:~/demo/BEM$ sl -al
+
+Command 'sl' not found, but can be installed with:
+
+sudo apt install sl
+
+nguyen@nguyen-FX503VD:~/demo/BEM$ git remotr -v
+git: 'remotr' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+nguyen@nguyen-FX503VD:~/demo/BEM$ git remote -v
+origin	git@github.com:annguyendang1722/BEM.git (fetch)
+origin	git@github.com:annguyendang1722/BEM.git (push)
+nguyen@nguyen-FX503VD:~/demo/BEM$ git status 
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	css/
+	fonts/
+	images/
+	index.html
+	js/
+	prepros.config
+	scss/
+
+nothing added to commit but untracked files present (use "git add" to track)
+nguyen@nguyen-FX503VD:~/demo/BEM$ git add *
+nguyen@nguyen-FX503VD:~/demo/BEM$ git status 
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   css/animate.min.css
+	new file:   css/bootstrap.min.css
+	new file:   css/fontawesome.min.css
+	new file:   css/main.css
+	new file:   fonts/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2
+	new file:   fonts/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2
+	new file:   fonts/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2
+	new file:   fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2
+	new file:   fonts/LICENSE.txt
+	new file:   fonts/Roboto-Black.ttf
+	new file:   fonts/Roboto-BlackItalic.ttf
+	new file:   fonts/Roboto-Bold.ttf
+	new file:   fonts/Roboto-BoldItalic.ttf
+	new file:   fonts/Roboto-Italic.ttf
+	new file:   fonts/Roboto-Light.ttf
+	new file:   fonts/Roboto-LightItalic.ttf
+	new file:   fonts/Roboto-Medium.ttf
+	new file:   fonts/Roboto-MediumItalic.ttf
+	new file:   fonts/Roboto-Regular.ttf
+	new file:   fonts/Roboto-Thin.ttf
+	new file:   fonts/Roboto-ThinItalic.ttf
+	new file:   images/imgsinglepost.png
+	new file:   images/new1.png
+	new file:   images/new2.png
+	new file:   images/new3.png
+	new file:   images/new4.png
+	new file:   images/new5.png
+	new file:   images/newright.png
+	new file:   index.html
+	new file:   js/bootstrap.min.js
+	new file:   js/fontawesome.js
+	new file:   js/jquery-latest.min.js
+	new file:   js/jquery.matchHeight.js
+	new file:   js/jquery.min.js
+	new file:   js/main.js
+	new file:   js/popper.min.js
+	new file:   js/vendors/bootstrap.min.js
+	new file:   js/vendors/jquery.min.js
+	new file:   js/vendors/popper.min.js
+	new file:   js/vendors/slick.js
+	new file:   js/vendors/wow.min.js
+	new file:   js/wow.min.js
+	new file:   prepros.config
+	new file:   scss/base/_reset.scss
+	new file:   scss/layout/_footer.scss
+	new file:   scss/layout/_header.scss
+	new file:   scss/main.scss
+	new file:   scss/page/_homepage.scss
+
+nguyen@nguyen-FX503VD:~/demo/BEM$ git commit -am "add new code"
+[master (root-commit) eb7a9e4] add new code
+ 56 files changed, 38564 insertions(+)
+ create mode 100644 css/animate.min.css
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/fontawesome.min.css
+ create mode 100644 css/main.css
+ create mode 100644 fonts/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2
+ create mode 100644 fonts/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2
+ create mode 100644 fonts/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2
+ create mode 100644 fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2
+ create mode 100644 fonts/LICENSE.txt
+ create mode 100644 fonts/Roboto-Black.ttf
+ create mode 100644 fonts/Roboto-BlackItalic.ttf
+ create mode 100644 fonts/Roboto-Bold.ttf
+ create mode 100644 fonts/Roboto-BoldItalic.ttf
+ create mode 100644 fonts/Roboto-Italic.ttf
+ create mode 100644 fonts/Roboto-Light.ttf
+ create mode 100644 fonts/Roboto-LightItalic.ttf
+ create mode 100644 fonts/Roboto-Medium.ttf
+ create mode 100644 fonts/Roboto-MediumItalic.ttf
+ create mode 100644 fonts/Roboto-Regular.ttf
+ create mode 100644 fonts/Roboto-Thin.ttf
+ create mode 100644 fonts/Roboto-ThinItalic.ttf
+ create mode 100644 images/imgsinglepost.png
+ create mode 100644 images/new1.png
+ create mode 100644 images/new2.png
+ create mode 100644 images/new3.png
+ create mode 100644 images/new4.png
+ create mode 100644 images/new5.png
+ create mode 100644 images/newright.png
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/fontawesome.js
+ create mode 100644 js/jquery-latest.min.js
+ create mode 100644 js/jquery.matchHeight.js
+ create mode 100644 js/jquery.min.js
+ create mode 100644 js/main.js
+ create mode 100644 js/popper.min.js
+ create mode 100644 js/vendors/bootstrap.min.js
+ create mode 100644 js/vendors/jquery.min.js
+ create mode 100644 js/vendors/popper.min.js
+ create mode 100644 js/vendors/slick.js
+ create mode 100644 js/vendors/wow.min.js
+ create mode 100644 js/wow.min.js
+ create mode 100644 prepros.config
+ create mode 100644 scss/base/_reset.scss
+ create mode 100644 scss/layout/_footer.scss
+ create mode 100644 scss/layout/_header.scss
+ create mode 100644 scss/main.scss
+ create mode 100644 scss/page/_homepage.scss
+nguyen@nguyen-FX503VD:~/demo/BEM$ git push origin master 
+Warning: Permanently added the RSA host key for IP address '52.74.223.119' to the list of known hosts.
+Enumerating objects: 64, done.
+Counting objects: 100% (64/64), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (62/62), done.
+Writing objects: 100% (64/64), 2.80 MiB | 1.26 MiB/s, done.
+Total 64 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:annguyendang1722/BEM.git
+ * [new branch]      master -> master
+nguyen@nguyen-FX503VD:~/demo/BEM$ ls
+css  fonts  images  index.html  js  prepros.config  scss
+nguyen@nguyen-FX503VD:~/demo/BEM$ cd..
+cd..: command not found
+nguyen@nguyen-FX503VD:~/demo/BEM$ cd ..
+nguyen@nguyen-FX503VD:~/demo$ ls
+BEM
+nguyen@nguyen-FX503VD:~/demo$ mkdir bem2
+nguyen@nguyen-FX503VD:~/demo$ cd bem2/
+nguyen@nguyen-FX503VD:~/demo/bem2$ ls
+nguyen@nguyen-FX503VD:~/demo/bem2$ ls
+css  fonts  images  index.html  js  prepros.config  scss
+nguyen@nguyen-FX503VD:~/demo/bem2$ git init
+Initialized empty Git repository in /home/nguyen/demo/bem2/.git/
+nguyen@nguyen-FX503VD:~/demo/bem2$ git remote -v
+nguyen@nguyen-FX503VD:~/demo/bem2$ git remote add an git@github.com:annguyendang1722/BEM.git
+nguyen@nguyen-FX503VD:~/demo/bem2$ git remote -v
+an	git@github.com:annguyendang1722/BEM.git (fetch)
+an	git@github.com:annguyendang1722/BEM.git (push)
+nguyen@nguyen-FX503VD:~/demo/bem2$ git branch
+nguyen@nguyen-FX503VD:~/demo/bem2$ git branch BEM
+fatal: Not a valid object name: 'master'.
+nguyen@nguyen-FX503VD:~/demo/bem2$ pwd
+/home/nguyen/demo/bem2
+nguyen@nguyen-FX503VD:~/demo/bem2$ git status 
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	css/
+	fonts/
+	images/
+	index.html
+	js/
+	prepros.config
+	scss/
+
+nothing added to commit but untracked files present (use "git add" to track)
+nguyen@nguyen-FX503VD:~/demo/bem2$ git branch 
+nguyen@nguyen-FX503VD:~/demo/bem2$ git checkout -b BEM
+Switched to a new branch 'BEM'
+nguyen@nguyen-FX503VD:~/demo/bem2$ git branch
+nguyen@nguyen-FX503VD:~/demo/bem2$ git status 
+On branch BEM
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	css/
+	fonts/
+	images/
+	index.html
+	js/
+	prepros.config
+	scss/
+
+nothing added to commit but untracked files present (use "git add" to track)
+nguyen@nguyen-FX503VD:~/demo/bem2$ git add *
+nguyen@nguyen-FX503VD:~/demo/bem2$ git commit -am "Add new code 2"
+[BEM (root-commit) e66c955] Add new code 2
+ 56 files changed, 38564 insertions(+)
+ create mode 100644 css/animate.min.css
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/fontawesome.min.css
+ create mode 100644 css/main.css
+ create mode 100644 fonts/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2
+ create mode 100644 fonts/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2
+ create mode 100644 fonts/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2
+ create mode 100644 fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2
+ create mode 100644 fonts/LICENSE.txt
+ create mode 100644 fonts/Roboto-Black.ttf
+ create mode 100644 fonts/Roboto-BlackItalic.ttf
+ create mode 100644 fonts/Roboto-Bold.ttf
+ create mode 100644 fonts/Roboto-BoldItalic.ttf
+ create mode 100644 fonts/Roboto-Italic.ttf
+ create mode 100644 fonts/Roboto-Light.ttf
+ create mode 100644 fonts/Roboto-LightItalic.ttf
+ create mode 100644 fonts/Roboto-Medium.ttf
+ create mode 100644 fonts/Roboto-MediumItalic.ttf
+ create mode 100644 fonts/Roboto-Regular.ttf
+ create mode 100644 fonts/Roboto-Thin.ttf
+ create mode 100644 fonts/Roboto-ThinItalic.ttf
+ create mode 100644 images/imgsinglepost.png
+ create mode 100644 images/new1.png
+ create mode 100644 images/new2.png
+ create mode 100644 images/new3.png
+ create mode 100644 images/new4.png
+ create mode 100644 images/new5.png
+ create mode 100644 images/newright.png
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/fontawesome.js
+ create mode 100644 js/jquery-latest.min.js
+ create mode 100644 js/jquery.matchHeight.js
+ create mode 100644 js/jquery.min.js
+ create mode 100644 js/main.js
+ create mode 100644 js/popper.min.js
+ create mode 100644 js/vendors/bootstrap.min.js
+ create mode 100644 js/vendors/jquery.min.js
+ create mode 100644 js/vendors/popper.min.js
+ create mode 100644 js/vendors/slick.js
+ create mode 100644 js/vendors/wow.min.js
+ create mode 100644 js/wow.min.js
+ create mode 100644 prepros.config
+ create mode 100644 scss/base/_reset.scss
+ create mode 100644 scss/layout/_footer.scss
+ create mode 100644 scss/layout/_header.scss
+ create mode 100644 scss/main.scss
+ create mode 100644 scss/page/_homepage.scss
+nguyen@nguyen-FX503VD:~/demo/bem2$ git branch
+* BEM
+nguyen@nguyen-FX503VD:~/demo/bem2$ git push an BEM 
+Enumerating objects: 64, done.
+Counting objects: 100% (64/64), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (62/62), done.
+Writing objects: 100% (64/64), 2.80 MiB | 1010.00 KiB/s, done.
+Total 64 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'BEM' on GitHub by visiting:
+remote:      https://github.com/annguyendang1722/BEM/pull/new/BEM
+remote: 
+To github.com:annguyendang1722/BEM.git
+ * [new branch]      BEM -> BEM
+nguyen@nguyen-FX503VD:~/demo/bem2$ 
