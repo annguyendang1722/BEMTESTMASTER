@@ -1,0 +1,479 @@
+nguyen@nguyen-FX503VD:~/BEMTEST/BEMTEST$ cd ../
+nguyen@nguyen-FX503VD:~/BEMTEST$ cd ../
+nguyen@nguyen-FX503VD:~$  mkdir BEMTESTMASTER
+nguyen@nguyen-FX503VD:~$ cd BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ git clone git@github.com:annguyendang1722/BEMTESTMASTER.git
+Cloning into 'BEMTESTMASTER'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ ls
+BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ ls
+BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ ls -l
+total 4
+drwxrwxr-x 3 nguyen nguyen 4096 Thg 12 21 13:50 BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ sl -al
+
+Command 'sl' not found, but can be installed with:
+
+sudo apt install sl
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ cd BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ ls
+README.md
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ ls -l
+total 4
+-rw-rw-r-- 1 nguyen nguyen 30 Thg 12 21 13:50 README.md
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add *
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	css/
+	fonts/
+	images/
+	index.html
+	js/
+	prepros.config
+	scss/
+
+nothing added to commit but untracked files present (use "git add" to track)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add *
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   css/animate.min.css
+	new file:   css/bootstrap.min.css
+	new file:   css/fontawesome.min.css
+	new file:   css/main.css
+	new file:   fonts/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2
+	new file:   fonts/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2
+	new file:   fonts/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2
+	new file:   fonts/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2
+	new file:   fonts/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2
+	new file:   fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2
+	new file:   fonts/LICENSE.txt
+	new file:   fonts/Roboto-Black.ttf
+	new file:   fonts/Roboto-BlackItalic.ttf
+	new file:   fonts/Roboto-Bold.ttf
+	new file:   fonts/Roboto-BoldItalic.ttf
+	new file:   fonts/Roboto-Italic.ttf
+	new file:   fonts/Roboto-Light.ttf
+	new file:   fonts/Roboto-LightItalic.ttf
+	new file:   fonts/Roboto-Medium.ttf
+	new file:   fonts/Roboto-MediumItalic.ttf
+	new file:   fonts/Roboto-Regular.ttf
+	new file:   fonts/Roboto-Thin.ttf
+	new file:   fonts/Roboto-ThinItalic.ttf
+	new file:   images/imgsinglepost.png
+	new file:   images/new1.png
+	new file:   images/new2.png
+	new file:   images/new3.png
+	new file:   images/new4.png
+	new file:   images/new5.png
+	new file:   images/newright.png
+	new file:   index.html
+	new file:   js/bootstrap.min.js
+	new file:   js/fontawesome.js
+	new file:   js/jquery-latest.min.js
+	new file:   js/jquery.matchHeight.js
+	new file:   js/jquery.min.js
+	new file:   js/main.js
+	new file:   js/popper.min.js
+	new file:   js/vendors/bootstrap.min.js
+	new file:   js/vendors/jquery.min.js
+	new file:   js/vendors/popper.min.js
+	new file:   js/vendors/slick.js
+	new file:   js/vendors/wow.min.js
+	new file:   js/wow.min.js
+	new file:   prepros.config
+	new file:   scss/base/_reset.scss
+	new file:   scss/layout/_footer.scss
+	new file:   scss/layout/_header.scss
+	new file:   scss/main.scss
+	new file:   scss/page/_homepage.scss
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am "add new code"
+[main 989ced3] add new code
+ 56 files changed, 38564 insertions(+)
+ create mode 100644 css/animate.min.css
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/fontawesome.min.css
+ create mode 100644 css/main.css
+ create mode 100644 fonts/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2
+ create mode 100644 fonts/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2
+ create mode 100644 fonts/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2
+ create mode 100644 fonts/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2
+ create mode 100644 fonts/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2
+ create mode 100644 fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2
+ create mode 100644 fonts/LICENSE.txt
+ create mode 100644 fonts/Roboto-Black.ttf
+ create mode 100644 fonts/Roboto-BlackItalic.ttf
+ create mode 100644 fonts/Roboto-Bold.ttf
+ create mode 100644 fonts/Roboto-BoldItalic.ttf
+ create mode 100644 fonts/Roboto-Italic.ttf
+ create mode 100644 fonts/Roboto-Light.ttf
+ create mode 100644 fonts/Roboto-LightItalic.ttf
+ create mode 100644 fonts/Roboto-Medium.ttf
+ create mode 100644 fonts/Roboto-MediumItalic.ttf
+ create mode 100644 fonts/Roboto-Regular.ttf
+ create mode 100644 fonts/Roboto-Thin.ttf
+ create mode 100644 fonts/Roboto-ThinItalic.ttf
+ create mode 100644 images/imgsinglepost.png
+ create mode 100644 images/new1.png
+ create mode 100644 images/new2.png
+ create mode 100644 images/new3.png
+ create mode 100644 images/new4.png
+ create mode 100644 images/new5.png
+ create mode 100644 images/newright.png
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap.min.js
+ create mode 100644 js/fontawesome.js
+ create mode 100644 js/jquery-latest.min.js
+ create mode 100644 js/jquery.matchHeight.js
+ create mode 100644 js/jquery.min.js
+ create mode 100644 js/main.js
+ create mode 100644 js/popper.min.js
+ create mode 100644 js/vendors/bootstrap.min.js
+ create mode 100644 js/vendors/jquery.min.js
+ create mode 100644 js/vendors/popper.min.js
+ create mode 100644 js/vendors/slick.js
+ create mode 100644 js/vendors/wow.min.js
+ create mode 100644 js/wow.min.js
+ create mode 100644 prepros.config
+ create mode 100644 scss/base/_reset.scss
+ create mode 100644 scss/layout/_footer.scss
+ create mode 100644 scss/layout/_header.scss
+ create mode 100644 scss/main.scss
+ create mode 100644 scss/page/_homepage.scss
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$  git push origin main
+Enumerating objects: 65, done.
+Counting objects: 100% (65/65), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (62/62), done.
+Writing objects: 100% (64/64), 2.80 MiB | 435.00 KiB/s, done.
+Total 64 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:annguyendang1722/BEMTESTMASTER.git
+   cf62fc9..989ced3  main -> main
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+* main
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch b- submain
+fatal: Not a valid object name: 'submain'.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch  submain
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch  master
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$  git checkout -b submain
+fatal: A branch named 'submain' already exists.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$  git checkout -b master
+fatal: A branch named 'master' already exists.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git checkout master
+Switched to branch 'master'
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+  main
+* master
+  submain
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status
+On branch master
+nothing to commit, working tree clean
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am "add new code"
+[master aba501b] add new code
+ 1 file changed, 102 insertions(+)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push origin master
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 292 bytes | 292.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/annguyendang1722/BEMTESTMASTER/pull/new/master
+remote: 
+To github.com:annguyendang1722/BEMTESTMASTER.git
+ * [new branch]      master -> master
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ 
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git checkout submain
+Switched to branch 'submain'
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+  main
+  master
+* submain
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status
+On branch submain
+nothing to commit, working tree clean
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am"tit;e"
+On branch submain
+nothing to commit, working tree clean
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push origin master
+Everything up-to-date
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push origin submain
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'submain' on GitHub by visiting:
+remote:      https://github.com/annguyendang1722/BEMTESTMASTER/pull/new/submain
+remote: 
+To github.com:annguyendang1722/BEMTESTMASTER.git
+ * [new branch]      submain -> submain
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+  main
+  master
+* submain
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ ^C
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch  submain1
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+  main
+  master
+* submain
+  submain1
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ cd ../
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ ls
+BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ cd ^C
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ cd git branch
+bash: cd: too many arguments
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ cd BEMTESTMASTER
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ ls
+css  fonts  images  index.html  js  prepros.config  README.md  scss
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ ls -l
+total 56
+drwxrwxr-x 2 nguyen nguyen  4096 Thg 12 15 08:59 css
+drwxrwxr-x 2 nguyen nguyen  4096 Thg 12 15 08:59 fonts
+drwxrwxr-x 2 nguyen nguyen  4096 Thg 12 17 13:32 images
+-rw-rw-r-- 1 nguyen nguyen  7331 Thg 12 21 14:11 index.html
+drwxrwxr-x 3 nguyen nguyen  4096 Thg 12 15 08:59 js
+-rw-rw-r-- 1 nguyen nguyen 22292 Thg 12 17 14:18 prepros.config
+-rw-rw-r-- 1 nguyen nguyen    30 Thg 12 21 13:50 README.md
+drwxrwxr-x 7 nguyen nguyen  4096 Thg 12 15 08:59 scss
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ cd ../
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ git remote add origin AnSentius
+fatal: not a git repository (or any of the parent directories): .git
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER$ cd BEMTESTMASTER/
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote add origin gitan
+fatal: remote origin already exists.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote gitan
+error: Unknown subcommand: gitan
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add an.txt
+fatal: pathspec 'an.txt' did not match any files
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add gitan.html
+fatal: pathspec 'gitan.html' did not match any files
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add gitadd.html
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status
+On branch submain
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   gitadd.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	BEMTEST.txt
+	thucthigit.txt
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am'tit;e'
+[submain 91b9ac2] tit;e
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 gitadd.html
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+  main
+  master
+* submain
+  submain1
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+* main
+  master
+  submain
+  submain1
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push origin main
+Everything up-to-date
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add gitadd.html
+fatal: pathspec 'gitadd.html' did not match any files
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am'tit;e'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	BEMTEST.txt
+	thucthigit.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git branch
+* main
+  master
+  submain
+  submain1
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add an.txt
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   an.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	BEMTEST.txt
+	thucthigit.txt
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am'dathaydoi'
+[main 29840f5] dathaydoi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 an.txt
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:annguyendang1722/BEMTESTMASTER.git
+   989ced3..29840f5  main -> main
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add Them1FolderLenGitHub
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   Them1FolderLenGitHub/BEMTEST.txt
+	new file:   Them1FolderLenGitHub/an.txt
+	new file:   Them1FolderLenGitHub/gitadd.html
+	new file:   Them1FolderLenGitHub/thucthigit.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	BEMTEST.txt
+	gitadd.html
+	thucthigit.txt
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git commit -am"Uload new"
+[main 2bbb67f] Uload new
+ 4 files changed, 621 insertions(+)
+ create mode 100644 Them1FolderLenGitHub/BEMTEST.txt
+ create mode 100644 Them1FolderLenGitHub/an.txt
+ create mode 100644 Them1FolderLenGitHub/gitadd.html
+ create mode 100644 Them1FolderLenGitHub/thucthigit.txt
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push orgin main
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 3.75 KiB | 1.25 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:annguyendang1722/BEMTESTMASTER.git
+   29840f5..2bbb67f  main -> main
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote add origin git@github.com:annguyendang1722/BEM.git
+fatal: remote origin already exists.
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote v-
+error: Unknown subcommand: v-
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git add remote nguyendangan git@github.com:annguyendang1722/BEMTEST.git
+fatal: pathspec 'remote' did not match any files
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote add nguyendangan git@github.com:annguyendang1722/BEMTEST.git
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+nguyendangan	git@github.com:annguyendang1722/BEMTEST.git (fetch)
+nguyendangan	git@github.com:annguyendang1722/BEMTEST.git (push)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote remove nguyendangan
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ git remote -v
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (fetch)
+origin	git@github.com:annguyendang1722/BEMTESTMASTER.git (push)
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ ^C
+nguyen@nguyen-FX503VD:~/BEMTESTMASTER/BEMTESTMASTER$ 
