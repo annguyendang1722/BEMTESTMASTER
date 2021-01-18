@@ -1,0 +1,185 @@
+.progress {
+	&__hori {
+		text-align: center;
+		position: relative;
+		padding-top: 60px;
+		padding-bottom: 135px;
+		img {
+			display: block;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			font-weight: normal;
+			bottom: 0px;
+			left: 0px;
+			object-fit: cover;
+			z-index: -1;
+			opacity: 0.4;
+			background-color: rgb(251, 243, 254);
+	   }
+   }
+	&__title {
+		font-weight: normal;
+		line-height: 1.2;
+		font-size: 3rem;
+   }
+	&__subtitle {
+		font-size: 1.5rem;
+		font-weight: 300;
+		color: $black-232;
+		@media(min-width:1200px) {
+			padding: 0px 10px;
+	   }
+   }
+	&__item {
+		color: $black;
+		border-radius: .25rem;
+		margin: 3rem 0px;
+		.progress {
+			&__info {
+				margin-bottom: 20px;
+				display: flex;
+				justify-content: space-between;
+		   }
+			&__line {
+				background: rgba(206, 206, 206, 0.4);
+		   }
+	   }
+   }
+	&_primary {
+		color: $black;
+		background-color: $blue14;
+		height: 8px;
+		border-radius: .25rem;
+   }
+	&__hori-block {
+		background: $white;
+		.progress_subtitle {
+			color: $gray76;
+	   }
+		.progress__col {
+			padding: 0px 15px;
+			@media(min-width:991px) {
+				max-width: 50%;
+				flex-basis: 50%;
+		   }
+			@media(max-width:991px) {
+				max-width: 100%;
+				flex-basis: 100%;
+		   }
+	   }
+		.modular_approach {
+			text-align: left;
+			padding-top: 3rem;
+			h4 {
+				font-size: 1.5rem;
+		   }
+			@media(min-width:991px) {
+				padding-right: 30px;
+		   }
+	   }
+		.progress__col:last-child {
+			@media(min-width:991px) {
+				padding-left: 30px;
+		   }
+	   }
+   }
+}
+.progress__circle-card {
+	max-width: 33.33333%;
+	flex-basis: 33.33333%;
+	padding: 3rem 0px;
+	@media(min-width:845px) and (max-width:1200px) {
+		max-width: 50%;
+		flex-basis: 50%;
+   }
+	@media(max-width:845px) {
+		max-width: 100%;
+		flex-basis: 100%;
+   }
+	.progress__circle-percent {
+		position: relative;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		background: white;
+		z-index: 1000;
+		margin: auto;
+		.progress__circle-number {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			border-radius: 50%;
+			color: $black;
+			font-size: 40px;
+			transition: 0.5s;
+			display: flex;
+			align-items: center;
+			span {
+				font-size: 24px;
+				color: $black;
+		   }
+	   }
+   }
+	.progress__circle-text {
+		position: relative;
+		margin-top: 20px;
+		font-weight: 700;
+		font-size: 18px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		transition: 0.5s;
+   }
+	svg {
+		position: relative;
+		width: 150px;
+		height: 150px;
+		z-index: 1000;
+		transform: rotate(269deg);
+		circle {
+			width: 100%;
+			height: 100%;
+			fill: none;
+			stroke: rgba(206, 206, 206, 0.4);
+			stroke-width: 10;
+			stroke-linecap: round;
+			transform: translate(5px, 5px);
+			&:nth-child(2) {
+				stroke-dasharray: 440;
+				stroke-dashoffset: 440;
+		   }
+	   }
+   }
+	&:nth-child(1) {
+		svg {
+			circle {
+				&:nth-child(2) {
+					stroke: #149dcc;
+			   }
+		   }
+	   }
+   }
+	&:nth-child(2) {
+		svg {
+			circle {
+				&:nth-child(2) {
+					stroke: #149dcc;
+			   }
+		   }
+	   }
+   }
+	&:nth-child(3) {
+		svg {
+			circle {
+				&:nth-child(2) {
+					stroke: #149dcc;
+			   }
+		   }
+	   }
+   }
+}

@@ -1,0 +1,79 @@
+{
+    "key": "group_5ce0c9d65c9e5",
+    "title": "Components List",
+    "fields": [
+        {
+            "key": "field_5ce0c9e69ea30",
+            "label": "Components",
+            "name": "components",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5c8f550424ff6": {
+                    "key": "layout_5c8f550424ff6",
+                    "name": "block_reference",
+                    "label": "Block Reference",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5c8f551524ff7",
+                            "label": "Block",
+                            "name": "block",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "blocks"
+                            ],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-component.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "comments"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1558242528
+}

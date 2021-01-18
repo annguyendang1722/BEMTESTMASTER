@@ -1,0 +1,30 @@
+$margin: 20px;
+
+.gct {
+  padding: 30px 0;
+
+  &__list {
+    @include grid(4, 15px);
+    align-items: inherit !important;
+  }
+
+  &__item {
+    background: $gray-f2;
+  }
+
+  &__body {
+    padding: 20px;
+  }
+
+  &__image {
+    a {
+      cursor: pointer;
+      display: block;
+      line-height: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

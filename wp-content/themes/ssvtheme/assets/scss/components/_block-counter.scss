@@ -1,0 +1,106 @@
+.counter {
+
+  &__list {
+
+    @media (min-width: $desktop) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+
+    @media (min-width: $desktop) {
+      font-size: 50px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 20px;
+
+    @media (min-width: $desktop) {
+      font-size: 25px;
+    }
+  }
+
+  &__icon-number {
+    i {
+      font-size: 100px;
+      color: $blue-0d6;
+    }
+  }
+
+  .number {
+    font-size: 50px;
+  }
+
+
+  &.style1 {
+    .counter__item {
+      @media (min-width: $desktop) {
+        width: calc((100% - 60px) / 3);
+      }
+    }
+  }
+
+  &.style2 {
+    .counter__list {
+      @media (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+    
+    .counter__item {
+      @media (min-width: $tablet) {
+        width: calc((100% - 60px) / 2);
+      }
+
+      @media (min-width: $desktop) {
+        width: calc((100% - 60px) / 4);
+      }
+    }
+  }
+
+  &.style3 {
+    .container {
+      @media (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .counter__list {
+      @media (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+
+    .counter__left,
+    .counter__list {
+      @media (min-width: $desktop) {
+        width: calc((100% - 60px) / 2);
+      }
+    }
+
+    .counter__item {
+      @media (min-width: $tablet) {
+        width: calc((100% - 60px) / 2);
+      }
+    }
+
+    .counter__icon-number {
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-right: 20px;
+      }
+    }
+  }
+}

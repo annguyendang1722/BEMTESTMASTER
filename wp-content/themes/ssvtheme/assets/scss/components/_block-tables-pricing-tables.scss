@@ -1,0 +1,283 @@
+.table {
+	&__block {
+		text-align: center;
+		background-color: $gray-f9f;
+		padding-top: 90px;
+		padding-bottom: 90px;
+
+		.table {
+			&__title {
+				font-size: 48px;
+				font-weight: normal;
+				line-height: 1.2;
+			}
+
+			&__subtitle {
+				color: $black-76;
+				font-size: 24px;
+			}
+
+			&__search {
+				float: right;
+				margin-bottom: 20px;
+
+				label {
+					font-weight: normal;
+				}
+
+				input[type="search"] {
+					border-radius: 100px;
+					padding-left: 16px;
+					margin-left:  8px;
+					display: inline-block;
+					height: 56px;
+					outline: 0;
+					width: auto;
+					background: $gray-f5f;
+					border: 1px solid $geat-e8e;
+				}
+
+			}
+
+			&__showing {
+				float: left;
+			}
+
+		}
+
+		table {
+			border-width: 1px 1px 0px 1px;
+			border-color: $silver;
+			border-style: solid;
+
+			td, th {
+				border-bottom: 1px solid $silver;
+			}
+
+		}
+
+	}
+
+	&__block--blue {
+		background: $blue-cae;
+
+		.table__subtitle {
+			color: $black-232;
+		}
+		table
+		{
+			background: $white;
+			border: unset;
+
+			th,tr,td
+			{
+				border-bottom: 1px solid $gray-efe !important;
+				text-align: center;
+			}
+		}
+
+	}
+
+}
+
+.price {
+	&__block {
+		position: relative;
+		text-align: center;
+		background-color: $gray-efe;
+		padding-top: 90px;
+		padding-bottom: 90px;
+
+		.price {
+			&__col {
+				text-align: center;
+				padding: 0px 10px;
+				margin-bottom: 20px;
+
+				.price__inner {
+					padding: 48px 10px;
+				}
+
+				@media(min-width:$desktopWide) {
+					max-width: 25%;
+					flex-basis: 25%;
+				}
+
+				@media(max-width:$desktopWide) and  (min-width:$tablet) {
+					max-width: 33.33333%;
+					flex-basis: 33.33333%;
+				}
+
+				@media(min-width:$mobileLandScape) and  (max-width:$tablet) {
+					max-width: 50%;
+					flex-basis: 50%;
+				}
+
+				@media(max-width:$mobileLandScape) {
+					max-width: 100%;
+					flex-basis: 100%;
+				}
+
+				.price {
+					&__title {
+						font-size: 24px;
+						color: $black-76;
+					}
+
+					&__dollar {
+						font-weight: 700;
+						vertical-align: top;
+						font-size: 24px;
+						color: $black-76;
+					}
+
+					&__money {
+						font-weight: 700;
+						color:  $black-232;
+						font-size: 68px;
+						line-height: 0.9;
+						margin-bottom: 15px;
+					}
+
+					&__per {
+						font-size: 16px;
+						color: $black-76;
+					}
+
+					&__buy {
+						margin: 40px 0px;
+						clear: both;
+
+						a {
+							border-radius: 100px;
+							background-color: $blue-dcc;
+							border-color: $blue-dcc;
+							color: $white;
+							margin: 6.4px 12.8px;
+							$white-space: normal;
+							padding: 16px 48px;
+						}
+
+					}
+
+				}
+
+				ul {
+					list-style: none;
+					padding-left: 0px;
+
+					li {
+						color: $black-76;
+						font-size: 16px;
+						background-color: transparent;
+						border: 0;
+						padding: 12px 52px;
+						border-bottom: 1px solid  #eaeaea;
+					}
+
+					li:last-child {
+						border-bottom: 0px;
+					}
+
+				}
+
+			}
+
+			&__active {
+				box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+				background: $white;
+
+				ul {
+					background: $white;
+				}
+
+			}
+
+		}
+
+		table {
+			border-width: 1px 1px 0px 1px;
+			border-color: $silver;
+			border-style: solid;
+
+			td, th {
+				border-bottom: 1px solid $silver;
+			}
+
+		}
+
+	}
+
+	&__block--bgcolor {
+		background: linear-gradient(45deg, #177396, #ca2955);
+
+		.price__inner {
+			background: $white;
+		}
+
+	}
+
+	&__block--col3 {
+		.price__col {
+			@media(min-width:$desktopWide) {
+				max-width: 33.33333%;
+				flex-basis: 33.33333%;
+			}
+
+			.price__inner {
+				background: $white;
+			}
+
+		}
+
+	}
+
+	&--bg {
+		opacity: 0.8;
+		background-color: rgb(247, 228, 255);
+
+		.price {
+			&__img {
+				display: block;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				font-weight: normal;
+				bottom: 0px;
+				left: 0px;
+				object-fit: cover;
+				z-index: -1;
+				opacity: 0.8;
+				background-color: rgb(247, 228, 255);
+			}
+
+			&__inner {
+				background: $white;
+			}
+
+			&__col {
+				@media(min-width:$desktopWide) {
+					max-width: 33.33333%;
+					flex-basis: 33.33333%;
+				}
+
+			}
+
+		}
+
+	}
+
+	&--bg1 {
+		border-top: 1px solid black;
+		opacity: 0.7;
+		background-color: rgb(255, 255, 255);
+
+		.row {
+			justify-content: center;
+		}
+
+	}
+
+}

@@ -1,0 +1,57 @@
+.accordions {
+  &__wrap {
+    @media (min-width: $tablet) {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      .accordions__column {
+        width: calc((100% - 50px) / 2);
+      }
+    }
+  }
+
+  &__list {
+    margin-bottom: 40px;
+  }
+
+  &__head {
+    background: $gray-efe;
+    padding: 20px 30px;
+    border: 1px solid $silver;
+    margin-bottom: 0;
+    cursor: pointer;
+
+    &.active {
+      background: $beige;
+
+      i {
+        transform: rotate(180deg);
+      }
+    }
+    
+    i {
+      font-size: 35px;
+      margin-right: 30px;
+    }
+  }
+
+  &__content {
+    display: none;
+  }
+
+  &__inner {
+    padding: 20px;
+  }
+
+  // style simple 
+
+  &--simple {
+    max-width: 600px;
+    margin: auto;
+
+    .accordions__title {
+      margin-bottom: 50px;
+    }
+  }
+}

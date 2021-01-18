@@ -1,0 +1,318 @@
+.footer {
+	background: $white !important;
+	position: relative;
+	overflow: hidden;
+
+	&__imgbg {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+
+		background-color: rgb(255, 255, 255);
+		width: 100%;
+		opacity: 0.4;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0px;
+	}
+
+	@media(max-width:$mobileLandScape) {
+		text-align: center;
+	}
+
+	&__top {
+		padding-bottom: 10px;
+
+		.footer {
+			&__col {
+				@media(max-width:1100px) and (min-width:845px) {
+					max-width: 33.33333%;
+					flex-basis: 33.33333%;
+				}
+
+				@media(max-width:845px) and (min-width:$mobileLandScape) {
+					max-width: 50%;
+					flex-basis: 50%;
+				}
+
+
+				.mobirse {
+					color: $black-76;
+					font-size: 16px;
+					margin: 16px 0px;
+				}
+
+				hr {
+					border-color: $black;
+					opacity: .05;
+				}
+
+				h3 {
+					color: $black-76;
+					font-size: 16px;
+					font-weight: normal;
+					margin-bottom: 24px;
+				}
+
+				p {
+					color: $black-76;
+				}
+
+				ul {
+					li {
+						margin-bottom: 5px;
+
+						a {
+							color: $black;
+						}
+
+					}
+
+				}
+
+			}
+
+			&__form {
+				@media(max-width:1100px) {
+					max-width: 100%;
+					flex-basis: 100%;
+				}
+
+				form {
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 48px;
+
+					input[type="email"] {
+						background-color: $gray-f5f;
+						box-shadow: none;
+						color: $black-56;
+						line-height: 1.43;
+						@media(min-width:$tablet) {
+						margin-right: 10px;
+						width:195px;
+					}
+						outline: 0;
+						min-height: 56px;
+						padding: 18px 8px;
+						border: unset;
+						border: 1px solid $geat-e8e;
+						border-radius: 100px;
+
+						
+
+					}
+
+					button {
+						font-weight: 500;
+						background-color: $blue14;
+						letter-spacing: 1px;
+						border: unset;
+						text-transform: inherit;
+						font-size: 14px;
+						border-radius: 100px;
+
+						
+
+					}
+
+					input[type="email"], button {
+						@media(max-width:$tablet) {
+							max-width: 100%;
+							flex-basis: 100%;
+							margin-bottom: 10px;
+						}
+
+					}
+
+				}
+
+			}
+
+			&__menu {
+				ul {
+					display: flex;
+					justify-content: flex-end;
+
+					@media(max-width:$tablet) {
+						justify-content: center;
+						margin: 15px 0px;
+					}
+
+					li {
+						padding: 0px 10px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	&__social {
+		&-list {
+			ul {
+				display: flex;
+				justify-content: flex-end;
+
+				@media(max-width:$tablet) {
+					justify-content: center !important;
+				}
+
+				li {
+					padding: 0px 10px;
+
+					a {
+						color: $black;
+
+						i {
+							color: $black-76;
+							font-size: 25.5px;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+		&--connect {
+			ul {
+				justify-content: flex-start;
+			}
+
+		}
+
+	}
+
+	&__bottom {
+		p {
+			color: $black-76;
+		}
+
+		.footer {
+			&__col {
+				@media(max-width:$tablet) {
+					max-width: 100%;
+					flex-basis: 100%;
+
+					p {
+						text-align: center;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	&--black {
+		background: $black-2e2 !important;
+
+		h3, a, p {
+			color: $white !important;
+		}
+
+		p {
+			@media(min-width:$tablet) {
+				padding-right: 51px;
+			}
+
+		}
+
+		h3 {
+			font-weight: 500 !important;
+		
+		}
+
+		hr {
+			border-color: $white !important;
+			opacity: .05;
+		}
+
+		ul.footer__link {
+			a {
+				color: $blue-dcc !important;
+			}
+
+		}
+
+		.mobirse {
+			color: $white !important;
+		}
+
+	}
+
+	&--col1 {
+		text-align: center;
+
+		.footer__social-list  ul {
+			@media(max-width:$tablet) {
+				display: flex;
+			}
+
+		}
+
+		ul {
+			display: flex;
+			justify-content: center;
+
+			@media(max-width:$tablet) {
+				display: block;
+			}
+
+			li {
+				padding: 0px 10px;
+
+				a {
+					font-weight: bold;
+				}
+
+			}
+
+		}
+
+		.footer__col {
+			max-width: 100%;
+			flex-basis: 100%;
+		}
+
+		padding: 20px 0px !important;
+
+		p {
+			margin-bottom: 0px;
+		}
+
+	}
+
+	&--map {
+		.footer__col {
+			@media(max-width:1100px) {
+				max-width: 100%;
+				flex-basis: 100%;
+			}
+
+		}
+
+		iframe {
+			width: 100%;
+			height: 400px;
+		}
+
+		iframe {
+			width: 100%;
+			height: 400px;
+		}
+
+	}
+
+}

@@ -1,0 +1,169 @@
+.gallery{
+  padding: 60px 0;
+
+  &--background-blue{
+    background-color: $blue-55b;
+  }
+
+  &--background-violet{
+    background-color: $violet-eff;
+  }
+
+  &__wrap{
+    position: relative;
+    display: inline-block;
+  }
+
+  &__item{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    line-height: 0;
+    position: relative;
+
+    @media (min-width: $tablet){
+      width: 25%;
+    }
+
+    &:hover{
+      .gallery__item-background{
+        opacity: 1;
+      }
+    }
+
+    &--width-33{
+      width: calc(100% - 30px);
+      margin: 0 15px 20px 15px;
+
+      @media (min-width: $tablet){
+        width: calc((100% - 180px) / 3);
+        margin: 30px;
+      }
+
+      &:last-child{
+        @media (max-width: $mobileOnly){
+          margin-bottom: 0;
+        }
+      }
+    }
+    
+    &--float-right{
+      float: right;
+    }
+
+    &--left-0{
+      position: absolute;
+      left: 0;
+      bottom: auto;
+      top: 25%;
+      float: none;
+
+      @media (min-width: $tablet){
+        top: auto;
+        bottom: 0;
+      }
+    }
+
+    &--left-25{
+      position: absolute;
+      left: 50%;
+      bottom: auto;
+      top: 25%;
+      float: none;
+
+      @media (min-width: $tablet){
+        top: auto;
+        bottom: 0;
+        left: 25%;
+      }
+    }
+
+    &--left-50{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      float: none;
+
+      @media (min-width: $tablet){
+        left: 50%;
+      }
+    }
+
+    &--left-75{
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      float: none;
+
+      @media (min-width: $tablet){
+        left: 75%;
+      }
+    }
+
+    img{
+      width: 100%;
+    }
+  }
+
+  &__item-title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    z-index: 3;
+    
+    &::before{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      content: "";
+      background-color: $black-05;
+      z-index: 0;
+    }
+
+    h4{
+      position: relative;
+      margin: 0;
+      color: $white;
+    }
+  }
+
+  &__box-btn{
+    text-align: center;
+    margin-bottom: 40px;
+
+    .btn{
+      margin: 10px;
+    }
+  }
+
+  &__item-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $black-05;
+    opacity: 0;
+    font-size: 30px;
+    color: $white;
+    transition: .5s;
+  }
+
+  .hide{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
